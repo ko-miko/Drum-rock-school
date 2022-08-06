@@ -1,135 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stickerz</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="shortcut icon" href="img/baby-yoda.svg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drums</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header id="home" class="header">
-        <nav class="header-nav">
-          <div class="container">
-            <div class="header-nav__logo">Stickerz</div>
-            <label class="burger-icon" for="burger-checkbox">☰</label>
-            <input type="checkbox" id="burger-checkbox">
-            <div class="header-nav__menu">
-              <a href="#home" class="header-nav__menu-item">Home</a>
-              <a href="#products" class="header-nav__menu-item">Products</a>
-              <a href="#contacts" class="header-nav__menu-item">Contacts</a>
-              <a href="cart.html" class="header-nav__menu-item">
-                Cart</a>
-            </div>
-          </div>
-        </nav>
-        <div class="header-banner">
-          <h1 class="header-banner__h1">Stickerz</h1>
-          <div class="button-container">
-            <button class="header-banner__button button"><span>Shop now</span></button>
-          </div>
+  <header class="header">
+    <div class="header__logo">
+      <img src="#" class="main__logo" alt="drums_logo">
+    </div>
+    <nav class="header_list">
+      <ul><a href="#">Features</a></ul>
+      <ul><a href="#">How It Works</a></ul>
+      <ul><a href="#">Pricing</a></ul>
+    </nav>
+    <section>
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form action="#">
+        <input type="email" name="email" id="email" placeholder="Enter your email addres">
+        <input type="submit" type="submit" value="Get Started" class="btn">
+      </form>
+    </section>
+    <div class="container">
+      <section id="how__it__works">
+        <div class="grid">
+          <div class="icon"></div>
+          <div class="desc"></div>
         </div>
-      </header>
-      <main>
-        <section class="main-products container">
-          <h2 id="products" class="main-products__h2">Products</h2>
-          <div class="main-products__list">
-            <article class="product-card">
-              <img
-                class="product-card__image"
-                src="img/baby-yoda.svg"
-                alt="Baby Yoda"
-              />
-              <h3 class="product-card__h3">Baby Yoda</h3>
-              <p class="product-card__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-                fuga autem possimus eveniet facere, non minus magnam obcaecati,
-                tenetur recusandae, corporis itaque suscipit. Vero illo nulla
-                asperiores laudantium tempore porro!
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy
-                </button>
-              </div>
-            </article>
-            <article class="product-card">
-              <img
-                class="product-card__image"
-                src="img/banana.svg"
-                alt="Banana"
-              />
-              <h3 class="product-card__h3">Banana</h3>
-              <p class="product-card__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-                fuga autem possimus eveniet facere, non minus magnam obcaecati,
-                tenetur recusandae, corporis itaque suscipit. Vero illo nulla
-                asperiores laudantium tempore porro!
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy
-                </button>
-              </div>
-            </article>
-            <article class="product-card">
-              <img class="product-card__image" src="img/girl.svg" alt="Girl" />
-              <h3 class="product-card__h3">Girl</h3>
-              <p class="product-card__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-                fuga autem possimus eveniet facere, non minus magnam obcaecati,
-                tenetur recusandae, corporis itaque suscipit. Vero illo nulla
-                asperiores laudantium tempore porro!
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy
-                </button>
-              </div>
-            </article>
-            <article class="product-card">
-              <img
-                class="product-card__image"
-                src="img/viking.svg"
-                alt="Viking"
-              />
-              <h3 class="product-card__h3">Viking</h3>
-              <p class="product-card__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-                fuga autem possimus eveniet facere, non minus magnam obcaecati,
-                tenetur recusandae, corporis itaque suscipit. Vero illo nulla
-                asperiores laudantium tempore porro!
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy
-                </button>
-              </div>
-            </article>
-          </div>
-        </section>
-      </main>
-      <footer id="contacts" class="footer container">
-        <h2>Contact <span class="ui-brand">Us</span></h2>
-        <form action="" class="footer__contacts">
-          <input type="text" name="name" placeholder="name" />
-          <input type="email" name="email" placeholder="email" />
-          <button class="button button-card">Submit</button>
-        </form>
-      </footer>
+        <div class="grid"></div>
+        <div class="grid"></div>
+      </section>
+    </div>
+
+  </header>
+  
 </body>
 </html>

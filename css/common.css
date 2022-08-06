@@ -6,13 +6,8 @@
 
 
 
-img {
-    display: block;
-    width:100%; 
+.container{
+    display: flex;
+    min-width: 1000px;
+    margin: 0 auto;
 }
-
-/* :root { - тут пишемо ті властивості які застосовуємо 
-    ко 
-    
-}
-    */
