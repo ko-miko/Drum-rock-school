@@ -1,13 +1,32 @@
 .header {
-    position: sticky;
-    z-index: 1;
+    position: fixed;
     top: 0;
     display: flex;
     flex-direction: row;
     min-height: 75px;
-    padding: 0 20px;
-    justify-content:space-around;
-    align-items: center;
+    width: 100%;
+    padding: 25px 35px;
+    background: rgba(180,180,181,255);
+    
+    
+    
+}
+
+.header__name {
+    flex:1;
+    display: flex;
+    padding: 4px 10px;
+    align-items: flex-end;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+li {
+    list-style: none;
 }
 
 .header__list {
@@ -16,5 +35,10 @@
     gap: 25px;
     width: 35vw;
     justify-content: space-around;
+    padding: 4px 10px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
