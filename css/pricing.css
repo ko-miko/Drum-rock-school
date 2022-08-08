@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     color: rgb(200, 196, 196);
-    min-height: 600px;
+    height: 600px;
     gap: 15px;
 }
 
@@ -46,9 +46,32 @@
     
 }
 
-.pricing__product h2:hover {
-    display: flex;
-    width: 100%;
-    background:yellow;
-   
+
+.btn {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+    height: 60px;
+    width: 120px;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #f1c40f;
+    color: green;
+    height: 70px;
+    width: 140px;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.btn:active {
+    background-color: green;
+    color: black;
+    height: 70px;
+    width: 140px;
+    font-size: 1.2em;
+    transition: 0.5s;
 }
