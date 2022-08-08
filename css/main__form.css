@@ -46,7 +46,9 @@
     font-weight: bold;
     color: rgb(200, 196, 196);
     cursor: pointer;
-    transition: 0.5s;
-    
+    transition: 0.5s;   
+}
+
+@media (max-width:563px) {
     
 }
