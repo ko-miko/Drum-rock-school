@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     color: rgb(200, 196, 196);
-    height: 600px;
+    min-height: 600px;
     gap: 15px;
 }
 
@@ -82,4 +82,16 @@
     width: 140px;
     font-size: 1.2em;
     transition: 0.5s;
+}
+
+@media (max-width:563px) {
+    .pricing {
+        display: flex;
+        flex-direction: column;
+        min-height: 600px;
+    }
+
+    .pricing__product ul {
+        display: none;
+    }
 }
