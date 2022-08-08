@@ -56,3 +56,14 @@
         height: 350px;
     }
 }
+
+@media (max-width:375px) {
+    .form__text {
+        font-size: 27px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+}
