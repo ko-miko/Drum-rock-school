@@ -7,9 +7,6 @@
     width: 100%;
     padding: 25px 35px;
     background: rgba(180,180,181,255);
-    
-    
-    
 }
 
 .header__name {
@@ -38,8 +35,24 @@ li {
     padding: 4px 10px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: black;
     font-size: 20px;
+   
+
+}
+
+nav a:hover {
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+    
+}
+
+nav a:active {
+    color: green;
+    transition: 0.5s;
 }

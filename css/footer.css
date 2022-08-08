@@ -28,11 +28,16 @@
 
 .contact__links {
     font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .contact__links:hover {
-    color: #f1c40f;
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .contact__links:active {
